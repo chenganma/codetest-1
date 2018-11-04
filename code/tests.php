@@ -12,6 +12,7 @@ class Tests {
         Assert::areEqual("Lorem ipsum Dolor sit Amet", Code::capitalizeEveryNthWord($sentence, 0, 2));
         Assert::areEqual("Lorem ipsum Dolor Sit Amet", Code::capitalizeEveryNthWord($sentence, 2, 1));
     }
+    
     static function isPrimeTest() {
         Assert::isFalse(Code::isPrime(-1), "IsPrime(-1) should be false.");
         Assert::isFalse(Code::isPrime(0), "IsPrime(0) should be false.");
